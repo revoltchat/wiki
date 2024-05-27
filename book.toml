@@ -18,3 +18,11 @@ additional-css = ["./mdbook-admonish.css"]
 git-repository-url = "https://github.com/revoltchat"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/revoltchat/wiki/edit/main/{path}"
+
+[output.html.redirect]
+"/markdown.html" = "https://support.revolt.chat/kb/interface/messages/formatting-your-messages"
+"/plugin-api.html" = "/developers/legacy-plugin-api.html"
+"/stack/developers/permissions.html" = "/developers/api/permissions.html"
+"/stack/developers/rate_limits.html" = "/developers/api/ratelimits.html"
+"/stack/bonfire/events.html" = "/developers/events/protocol.html"
+"/stack/bonfire/establishing.html" = "/developers/events/establishing.html"
