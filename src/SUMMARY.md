@@ -2,40 +2,22 @@
 
 [Introduction](./hello.md)
 
-- [Contribution Guide]()
-- [Other ways to help]()
-  <!-- - [Providing feedback]()
-  - [Helping with translations]()
-  - [Financial support]() -->
+- [Contribution Guide](./contrib.md)
+- [Other ways to help](./help.md)
 - [Frequently Asked Questions](./faq.md)
 
 # Developers
 
-- [Endpoints]()
+- [Getting Started]()
+  <!-- - [Getting Started](./developers/get_started.md) -->
+  - [Endpoints](./developers/endpoints.md)
 - [REST API]()
-  - [Authentication]()
-  - [API reference]()
-  - [Rate limits]()
-  - [Uploading files]()
-  - [Changelog]()
+  - [Authentication](./developers/api/authentication.md)
+  - [API reference](./developers/api/reference.md)
+  - [Rate limits](./developers/api/ratelimits.md)
+  - [Permissions](./developers/api/permissions.md)
+  - [Uploading files](./developers/api/uploading-files.md)
+  - [Changelog](./developers/api/changelog.md)
 - [Events (WebSocket)]()
-  - [Establishing a connection]()
-  - [Protocol reference]()
-
-<!-- # Technical Reference
-
-- [Backend]()
-- [User Interface]()
-  - [Navigation]()
-    - [Server List Sidebar]()
-    - [Conversations Sidebar]()
-    - [Server Sidebar]()
-      - [Ordered Channels Algorithm]()
-  - [Channels]()
-    - [Text Channels]()
-      - [Message Grouping Algorithm]() -->
-
-# Transparency
-
-- [Inquiries]()
-- [Incidents]()
+  - [Establishing a connection](./developers/events/establishing.md)
+  - [Protocol reference](./developers/events/protocol.md)
