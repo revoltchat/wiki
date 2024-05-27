@@ -9,7 +9,6 @@
 # Developers
 
 - [Getting Started]()
-  <!-- - [Getting Started](./developers/get_started.md) -->
   - [Endpoints](./developers/endpoints.md)
 - [REST API]()
   - [Authentication](./developers/api/authentication.md)
