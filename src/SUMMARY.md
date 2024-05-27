@@ -20,3 +20,5 @@
 - [Events (WebSocket)]()
   - [Establishing a connection](./developers/events/establishing.md)
   - [Protocol reference](./developers/events/protocol.md)
+- [Libraries](./developers/libraries.md)
+- [Revite Plugin API](./developers/legacy-plugin-api.md)
