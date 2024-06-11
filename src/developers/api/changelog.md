@@ -1,6 +1,12 @@
 # Changelog
 
-TODO ... this is certainly missing things
+You can find the API changelog on the [releases page on GitHub](https://github.com/revoltchat/backend/releases)!
+
+# Legacy Changelog
+
+## Gap in data
+
+This is missing stuff between the one above and the one below.
 
 ## 20230120-1: New Account Events
 

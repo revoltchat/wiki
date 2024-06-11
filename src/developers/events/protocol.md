@@ -21,6 +21,8 @@ Authenticate with Revolt.
 
 Tell other users that you have begun typing in a channel.
 
+Must be in the specified channel or nothing will happen.
+
 ```json
 {
   "type": "BeginTyping",
@@ -31,6 +33,8 @@ Tell other users that you have begun typing in a channel.
 ### EndTyping
 
 Tell other users that you have stopped typing in a channel.
+
+Must be in the specified channel or nothing will happen.
 
 ```json
 {
@@ -80,6 +84,18 @@ The server has authenticated your connection and you will shortly start receivin
   "type": "Authenticated"
 }
 ```
+
+### Logged Out
+
+The current user session has been invalidated or the bot token has been reset.
+
+```json
+{
+  "type": "Logout"
+}
+```
+
+Your connection will be closed shortly after.
 
 ### Bulk
 
