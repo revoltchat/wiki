@@ -39,7 +39,8 @@ As of right now, Revolt does not feature any federation and **it is not in our f
 However, this does not necessarily mean federation is off the table, possible avenues are:
 - Implement our own federation protocol
 - Implement a promising up and coming federation protocol, polyproto
-- ~~Implement the Matrix protocol~~ lol no
+- Implement the Matrix protocol (unlikely, obtuse and unstable)
+- Implement the XMPP protocol (battle-tested and stable)
 
 Any federation that is implemented MUST exercise caution in:
 - Preventing spam and abuse: moderators should be able to block malicious actors
