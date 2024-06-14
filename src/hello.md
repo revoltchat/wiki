@@ -12,3 +12,4 @@ You may also be interested in the:
 
 - [Frontend Book](https://revoltchat.github.io/frontend)
 - [Backend Book](https://revoltchat.github.io/backend)
+- [Android Book](https://revoltchat.github.io/android)
