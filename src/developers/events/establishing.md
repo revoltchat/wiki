@@ -18,6 +18,8 @@ The server will now start sending relevant events as they come in.
 
 You should [Ping](./protocol.md#ping) the server every 10 to 30 seconds to prevent your connection being dropped.
 
+Bots receive all events, normal users do not receive UserUpdate events fanned out through servers by default, [read more here](./protocol.md#subscribe).
+
 ## Query Parameters
 
 The Bonfire service supports additional query parameters:

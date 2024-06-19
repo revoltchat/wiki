@@ -54,6 +54,24 @@ Ping the server, you can specify a timestamp that you'll receive back.
 }
 ```
 
+### Subscribe
+
+Subscribe to a server's UserUpdate events.
+
+```json
+{
+  "type": "Subscribe",
+  "server_id": "{server_id}"
+}
+```
+
+Implementation notes:
+- Subscriptions automatically expire within 15 minutes.
+- A client may have up to 5 active subscriptions.
+- This has no effect on bot sessions.
+- This event should only be sent **iff** app/client is in focus.
+- You should aim to send this event at most every 10 minutes per server.
+
 ## Server to Client
 
 ### Error
