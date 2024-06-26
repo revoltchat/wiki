@@ -20,14 +20,15 @@ You can use the ID wherever a file is required in the API.
 Code sample in JavaScript using Fetch API:
 
 ```js
-const formData = new FormData();
-formData.append("file", file);
+const data = new FormData();
+data.append("file", file);
 
-const res = await Axios.post(`${endpoint}/${tag}`, formData, {
+const res = await fetch(`${endpoint}/${tag}`, {
+  method: 'POST',
+  data,
   headers: {
     "Content-Type": "multipart/form-data",
   },
-  ...config,
 });
 
 // use res.data.id
