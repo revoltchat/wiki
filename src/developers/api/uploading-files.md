@@ -23,15 +23,16 @@ Code sample in JavaScript using Fetch API:
 const body = new FormData();
 body.append("file", file);
 
-const res = await fetch(`${endpoint}/${tag}`, {
+const data = await fetch(`${endpoint}/${tag}`, {
   method: 'POST',
   body,
   headers: {
     "Content-Type": "multipart/form-data",
   },
-});
+})
+.then(res => res.json());
 
-// use res.data.id
+// use data.id
 ```
 
 ## Serving images
