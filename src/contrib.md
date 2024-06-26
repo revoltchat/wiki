@@ -2,9 +2,9 @@
 
 This is the contribution guide for developers wanting to help out with Revolt.
 
-## Repository Lifecycle
+# Repository Lifecycle
 
-# Making Commits
+## Making Commits
 
 - Sign-off your commits ([Git flag](https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---signoff)), [read here about DCO obligations](https://developercertificate.org/).
 - Sign commits where possible, [learn more about that here](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits).
