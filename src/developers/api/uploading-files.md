@@ -24,13 +24,9 @@ const body = new FormData();
 body.append("file", file);
 
 const data = await fetch(`${endpoint}/${tag}`, {
-  method: 'POST',
+  method: "POST",
   body,
-  headers: {
-    "Content-Type": "multipart/form-data",
-  },
-})
-.then(res => res.json());
+}).then((res) => res.json());
 
 // use data.id
 ```
