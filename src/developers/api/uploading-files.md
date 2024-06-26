@@ -20,12 +20,12 @@ You can use the ID wherever a file is required in the API.
 Code sample in JavaScript using Fetch API:
 
 ```js
-const data = new FormData();
-data.append("file", file);
+const body = new FormData();
+body.append("file", file);
 
 const res = await fetch(`${endpoint}/${tag}`, {
   method: 'POST',
-  data,
+  body,
   headers: {
     "Content-Type": "multipart/form-data",
   },
