@@ -41,5 +41,5 @@ Any issues marked with "Future Work" or with a milestone greater than the curren
 Please read the additional relevant guidance on:
 
 - [Developing for Backend](https://github.com/revoltchat/backend?tab=readme-ov-file#development-guide) (contrib guide TBA)
-- [Developing for Frontend](https://github.com/revoltchat/frontend?tab=readme-ov-file#development-guide) (contrib guide TBA)
+- [Contributing to Frontend](https://revoltchat.github.io/frontend/contribution-guide.html)
 - [Contributing to Android](https://revoltchat.github.io/android/contributing/guidelines/)
