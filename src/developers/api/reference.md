@@ -13,6 +13,7 @@
     }
 
     #content main {
+        width: 100%;
         max-width: unset;
     }
 
