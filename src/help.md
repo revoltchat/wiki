@@ -17,4 +17,4 @@ You can contribute translations through [**Weblate**](https://weblate.insrt.uk/e
 ### 3. Donate
 
 Revolt is not backed by a big company, is not currently monetised (for example, via a subscription service) and does not serve you advertisements; as such, Revolt currently relies entirely on donations.
-You can learn more about donating [here](https://insrt.uk/donate) - if you want to make a larger donation, please consult me first.
+You can learn more about donating [here](https://wiki.revolt.chat/notes/project/financial-support/) - if you want to make a larger donation, please consult me first.
