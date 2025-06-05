@@ -20,5 +20,8 @@
 - [Events (WebSocket)]()
   - [Establishing a connection](./developers/events/establishing.md)
   - [Protocol reference](./developers/events/protocol.md)
+- [Voice Channels]()
+  - [Getting Started](./developers/voice/getting-started.md)
+  - [Livecycle](./developers/voice/lifecycle.md)
 - [Libraries](./developers/libraries.md)
 - [Revite Plugin API](./developers/legacy-plugin-api.md)
