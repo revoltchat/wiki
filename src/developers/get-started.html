@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Revolt Developer Introduction</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: #1e1e1e;
+      color: #e0e0e0;
+    }
+    h1, h2 {
+      color: #ff6f61;
+    }
+    a {
+      color: #80dfff;
+    }
+    pre {
+      background: #2c2c2c;
+      padding: 1rem;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    code {
+      background: #2c2c2c;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Revolt Developer Introduction</h1>
+
+  <p>Welcome! This page is for developers who want to build on <strong>Revolt</strong>—an open-source chat platform designed for customization and creative freedom.</p>
+
+  <h2>What You Can Build</h2>
+  <ul>
+    <li>Bots and automation tools</li>
+    <li>Custom clients and extensions</li>
+    <li>Themes and visual enhancements</li>
+    <li>Core contributions to the platform</li>
+  </ul>
+
+  <h2>Getting Started with the API</h2>
+  <p>Revolt offers a REST API and WebSocket gateway for real-time events. You can:</p>
+  <ul>
+    <li>Send and receive messages</li>
+    <li>Listen for events like <code>messageCreate</code>, <code>userUpdate</code>, etc.</li>
+    <li>Manage servers, channels, roles, and users</li>
+  </ul>
+  <p>API Docs: <a href="https://publicapi.dev/revolt-api" target="_blank">https://publicapi.dev/revolt-api</a></p>
+
+  <h2>Use a Library</h2>
+  <p>To simplify development, use a community SDK:</p>
+  <ul>
+    <li><strong>JavaScript:</strong> <code>revolt.js</code> – <a href="https://revolt.guide/" target="_blank">Guide</a></li>
+    <li><strong>Python:</strong> <code>Revolt.py</code></li>
+    <li><strong>C#:</strong> <code>Revolt.NET</code></li>
+    <li><strong>Go:</strong> <code>RevoltGo</code></li>
+  </ul>
+
+  <h2>Quick Example</h2>
+  <pre><code>client.on("messageCreate", (message) => {
+  if (message.content === "!ping") {
+    message.reply("Pong!");
+  }
+});</code></pre>
+
+  <h2>Join the Community</h2>
+  <ul>
+    <li><a href="https://app.revolt.chat/invite/dev" target="_blank">Revolt Dev Server</a></li>
+    <li><a href="https://github.com/revoltchat" target="_blank">GitHub Repository</a></li>
+    <li><a href="https://github.com/revoltchat/discussions" target="_blank">GitHub Discussions</a></li>
+  </ul>
+
+  <h2>You're Invited</h2>
+  <p>Revolt is growing—and your ideas, tools, and contributions help shape it. Build something cool, share it, and help make chat better.</p>
+
+</body>
+</html>
