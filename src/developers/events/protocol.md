@@ -416,9 +416,12 @@ A user has joined the server.
 {
   "type": "ServerMemberJoin",
   "id": "{server_id}",
-  "user": "{user_id}"
+  "user": "{user_id}",
+  "member": {..}
 }
 ```
+
+- `member` field contains a Member object.
 
 ### ServerMemberLeave
 
