@@ -144,10 +144,14 @@ Data for use by client, data structures match the API specification.
 ```json
 {
     "type": "Ready",
-    "users": [{..}],
-    "servers": [{..}],
-    "channels": [{..}],
-    "emojis": [{..}]
+    "users"?: [{..}],
+    "servers"?: [{..}],
+    "channels"?: [{..}],
+    "members"?: [{..}],
+    "emojis"?: [{..}],
+    "user_settings"?: [{..}],
+    "channel_unreads"?: [{..}],
+    "policy_changes"?: [{..}],
 }
 ```
 
